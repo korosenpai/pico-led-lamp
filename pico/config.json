@@ -1,0 +1,6 @@
+{
+    "nleds": 10,
+    "color": [255, 191, 0],
+    "brightness": 1,
+    "led_step": 1
+}
