@@ -1,7 +1,7 @@
 from machine import Pin, ADC
 import time
 
-btn1 = Pin(1, Pin.IN, Pin.PULL_UP)
+btn1 = Pin(13, Pin.IN, Pin.PULL_UP)
 if not btn1.value():
     print("Button1 is Pressed")
 else:
